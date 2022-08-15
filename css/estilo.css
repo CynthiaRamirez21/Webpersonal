@@ -1,0 +1,890 @@
+.rowContacto {
+  display: flex;
+}
+
+.colContacto {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.miniatura { 
+  height: 400px; 
+  width: 450px;
+}
+.miniatura { 
+  height: 400px; 
+  width: 450px;
+}
+
+ul.no-bullets {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* ============== Smartphone ============== */
+@media only screen and (max-width: 1024px) and (orientation:portrait)  {
+  .seccionSobreMi{
+    height: 100vh;
+    background-image: url("../img/tulipan-morado-1024x640.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionMisHabilidades{
+    height: 100vh;
+    background-image: url("../img/Habilidades-de-compras.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionMiEducacion{
+    height: 100vh;
+    background-image: url("../img/e2497217-a415-466c-8739-147a55f4dba3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionMiExperienciaLaboral{
+    height: 100vh;
+    background-image: url("../img/habilidades-diariocrecer.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionContacto{
+    height: 100vh;
+    background-color: black;
+  }
+  div.principal {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+  }
+  p.principal{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2.7rem;
+  }
+  h1.principal {
+    padding-bottom: 30px;
+    font-size: 5.0rem;
+  }
+  a.principal{
+    font-size: 2.0rem;
+  }
+  div.interno {
+    width: 20%;
+    height: 10%;
+    padding-top: 5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+
+    font-size: 5rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.5);
+    border-radius: 5px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  div.encabezado{
+    /* background-color: rgba(34,40,63,0.5); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* ============== Contacto ============== */
+
+  div.internoContacto {
+    width: 60%;
+    height: 60%;
+    padding-top: 2vh;
+
+    font-size: 5rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: black;
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+  /* form { 
+    max-width: 420px; 
+    margin: 50px auto;
+  } */
+
+  .feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    /* font-size: 18px; */
+    font-size: 2rem;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+
+  .feedback-input:focus { border:2px solid #CC4949; }
+
+  textarea {
+    height: 100px;
+    line-height: 150%;
+    resize:vertical;
+  }
+
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    /* font-size:24px; */
+    font-size:2rem;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#CC4949; }
+
+  /* ============== Estilo de paginas secundarias ============== */
+
+  .seccionContenido1{
+    height: 100vh;
+    background-color: rgba(18, 21, 36, 0.8);
+  }
+  .seccionContenido2{
+    height: 100vh;
+    background-color: rgba(18, 21, 36, 0.6);
+  }
+  div.internoSecundario {
+    width: 80%;
+    height: 80%;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.2);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  div.internoSecundarioCompost {
+    width: 80%;
+    height: 80%;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+
+    font-size: 2.2rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.2);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .seccionPlasticoSecundario{
+    height: 100vh;
+    background-image: url("../img/sec-plastico.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .seccionCartonSecundario{
+    height: 100vh;
+    background-image: url("../img/sec-carton.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .seccionCompostSecundario{
+    height: 100vh;
+    background-image: url("../img/sec-compost.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (orientation:landscape)  {
+  .seccionSobreMi{
+    height: 100vh;
+    background-image: url("../img/tulipan-morado-1024x640.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionCarton{
+    height: 100vh;
+    background-image: url("../img/img-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionPlastico{
+    height: 100vh;
+    background-image: url("../img/img-3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionCompost{
+    height: 100vh;
+    background-image: url("../img/img-4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionContacto{
+    height: 100vh;
+    background-color: black;
+  }
+  div.principal {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+  }
+  p.principal{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2.0rem;
+  }
+  h1.principal {
+    padding-bottom: 15px;
+    font-size: 3.0rem;
+  }
+  a.principal{
+    font-size: 2.0rem;
+  }
+  div.interno {
+    width: 70%;
+    height: 70%;
+    padding-top: 5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.5);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  div.encabezado{
+    /* background-color: rgba(34,40,63,0.5); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* ============== Contacto ============== */
+
+  div.internoContacto {
+    width: 60%;
+    height: 60%;
+    /* padding-top: 2vh; */
+
+    font-size: 5rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: black;
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+  /* form { 
+    max-width: 420px; 
+    margin: 50px auto;
+  } */
+
+  .feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    /* font-size: 18px; */
+    font-size: 1.5rem;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+
+  .feedback-input:focus { border:2px solid #CC4949; }
+
+  textarea {
+    height: 120px;
+    line-height: 150%;
+    resize:vertical;
+  }
+
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    /* font-size:24px; */
+    font-size:1.5rem;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#CC4949; }
+
+  /* ============== Estilo de paginas secundarias ============== */
+
+  .seccionContenido1{
+    height: 100vh;
+    background-color: rgba(18, 21, 36, 0.8);
+  }
+  .seccionContenido2{
+    height: 100vh;
+    background-color: rgba(18, 21, 36, 0.6);
+  }
+  div.internoSecundario {
+    width: 80%;
+    height: 80%;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.2);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  div.internoSecundarioCompost {
+    width: 90%;
+    height: 90%;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.2);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .seccionPlasticoSecundario{
+    height: 100vh;
+    background-image: url("../img/sec-plastico.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .seccionCartonSecundario{
+    height: 100vh;
+    background-image: url("../img/sec-carton.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .seccionCompostSecundario{
+    height: 100vh;
+    background-image: url("../img/sec-compost.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+}
+
+/* ============== Tablet ============== */
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .seccionSobreMi{
+    height: 100vh;
+    background-image: url("../img/tulipan-morado-1024x640.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionCarton{
+    height: 100vh;
+    background-image: url("../img/img-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionPlastico{
+    height: 100vh;
+    background-image: url("../img/img-3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionCompost{
+    height: 100vh;
+    background-image: url("../img/img-4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionContacto{
+    height: 100vh;
+    background-color: black;
+  }
+  div.principal {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+  }
+  p.principal{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 1.8rem;
+  }
+  h1.principal {
+    padding-bottom: 30px;
+  }
+  div.interno {
+    width: 50%;
+    height: 50%;
+    padding-top: 2vh;
+
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.5);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  div.encabezado{
+    /* background-color: rgba(34,40,63,0.5); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* ============== Contacto ============== */
+
+  div.internoContacto {
+    width: 40%;
+    height: 60%;
+    padding-top: 2vh;
+
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: black;
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+  /* form { 
+    max-width: 420px; 
+    margin: 50px auto;
+  } */
+
+  .feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+
+  .feedback-input:focus { border:2px solid #CC4949; }
+
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#CC4949; }
+
+  /* ============== Estilo de paginas secundarias ============== */
+
+  .seccionContenido1{
+    height: 100vh;
+    background-color: rgba(18, 21, 36, 0.8);
+  }
+  .seccionContenido2{
+    height: 100vh;
+    background-color: rgba(18, 21, 36, 0.6);
+  }
+  div.internoSecundario {
+    width: 80%;
+    height: 80%;
+    padding-top: 2vh;
+
+    font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.2);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  div.internoSecundarioCompost {
+    width: 80%;
+    height: 80%;
+    padding-top: 2vh;
+
+    font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.2);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .seccionPlasticoSecundario{
+    height: 100vh;
+    background-image: url("../img/sec-plastico.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .seccionCartonSecundario{
+    height: 100vh;
+    background-image: url("../img/sec-carton.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .seccionCompostSecundario{
+    height: 100vh;
+    background-image: url("../img/sec-compost.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+}
+
+
+/* ============== PC ============== */
+@media (min-width: 1280px) {
+  .seccionSobreMi{
+    height: 100vh;
+    background-image: url("../img/IMG-20210819-WA0010.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionMisHabilidades{
+    height: 100vh;
+    background-image: url("../img/103423.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionMiEducacion{
+    height: 100vh;
+    background-image: url("../img/WA0004.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .seccionMiExperienciaLaboral{
+    height: 100vh;
+    background-image: url("../img/20170104_124349.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seccionContacto{
+    height: 100vh;
+    background-image: url("../img/IMG-20200108-WA0031.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  div.principal {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+  }
+  p.principal{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  h1.principal {
+    padding-bottom: 30px;
+  }
+  div.interno {
+    width: 50%;
+    height: 50%;
+    padding-top: 2vh;
+
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.5);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  div.encabezado{
+    /* background-color: rgba(34,40,63,0.5); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* ============== Contacto ============== */
+
+  div.internoContacto {
+    width: 40%;
+    height: 10%;
+    padding-top: 2vh;
+
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: black;
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+  /* form { 
+    max-width: 420px; 
+    margin: 50px auto;
+  } */
+
+  .feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+
+  .feedback-input:focus { border:2px solid #CC4949; }
+
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#CC4949; }
+
+  /* ============== Estilo de paginas secundarias ============== */
+
+  .seccionContenido1{
+    height: 100vh;
+    background-color: rgba(18, 21, 36, 0.8);
+  }
+  .seccionContenido2{
+    height: 100vh;
+    background-color: rgba(18, 21, 36, 0.6);
+  }
+  div.internoSecundario {
+    width: 80%;
+    height: 80%;
+    padding-top: 2vh;
+
+    font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.2);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  div.internoSecundarioCompost {
+    width: 80%;
+    height: 80%;
+    padding-top: 2vh;
+
+    font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    
+    background-color: rgba(34,40,63,0.2);
+    border-radius: 15px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .seccionPlasticoSecundario{
+    height: 100vh;
+    background-image: url("../img/e09aeedd19c80c4e22beefba601f4747.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .seccionCartonSecundario{
+    height: 100vh;
+    background-image: url("../img/IMG-20200108-WA0031.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  .seccionCompostSecundario{
+    height: 100vh;
+    background-image: url("../img/163540.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+}
